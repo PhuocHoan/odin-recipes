@@ -1,0 +1,27 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blueviolet;
+    color: cyan;
+}
+
+h1 {
+    color: antiquewhite;
+}
+
+h2,
+h3 {
+    color: brown;
+}
+
+li,
+p {
+    font-size: large;
+}
+
+strong {
+    color: pink;
+}
+
+a {
+    color: greenyellow;
+}

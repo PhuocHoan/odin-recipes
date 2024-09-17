@@ -1,0 +1,15 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blueviolet;
+    color: greenyellow;
+}
+
+h1 {
+    text-align: center;
+    color: antiquewhite;
+}
+
+li,
+a {
+    font-size: large;
+}
