@@ -1,15 +1,37 @@
-* {
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
     font-family: 'Times New Roman', Times, serif;
     background-color: blueviolet;
     color: greenyellow;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 8px;
+    background-color: #778887;
 }
 
 h1 {
     text-align: center;
-    color: antiquewhite;
+    color: black;
+    margin-bottom: 8px;
+    background-color: yellow;
 }
 
-li,
 a {
     font-size: large;
+}
+
+li {
+    list-style: none;
+    padding: 8px;
+    margin: 5px;
+    text-align: center;
 }
